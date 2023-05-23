@@ -1,0 +1,125 @@
+@charset"utf-8";
+body {
+    background-color: #383838;
+    color: #000000;
+}
+
+div#interface {
+    width: 1300px;
+    height: 900px;
+    background-color: #fff;
+    margin: 40px auto 0px auto;
+    padding: 10px 10px 10px 10px;
+
+}
+
+header#cabecalho {
+    background-color: #169439;
+}
+
+header#cabecalho h1 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'adobe devanagari';
+    margin: 5px;
+
+}
+
+header#cabecalho2 img#icone {
+    left: 500px;
+    margin: 0px 0px 0px 1200px;
+}
+
+header#cabecalho h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'adobe devanagari';
+    margin: 5px;
+}
+
+header#cabecalho h2 {
+    left: 500px;
+    margin: 0px 0px 0px 1190px;
+}
+
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    left: 450px;
+
+}
+
+nav#menu li {
+display: inline-block;
+background-color: #169439;
+padding: 10px;
+margin: 2px;
+transition: background-color 1s ;
+
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+nav#menu a {
+    font-family: 'adobe devanagari';
+    color:rgb(255, 255, 255);
+}
+nav#menu a:hover {
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+div.Fotos {
+    margin: 0px 0px 0px 90px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.Fotos:hover {
+    border: 1px solid #777;
+}
+
+div.Fotos img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+nav#menu li:hover {
+    background-color: #797979;
+
+
+}
+
+
+div.desc {
+    width: 150px;
+    background-color: #169439;
+    position: relative;
+    margin: 0px -10px 0px -10px;
+    padding: 0px 0px 0px 0px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'adobe devanagari';
+    display: inline-block;
+}
+
